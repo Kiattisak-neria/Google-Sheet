@@ -1,28 +1,28 @@
 # Google-Sheet
   การใช้บอร์ดไมโครคอนโทรลเลอร์ส่งข้อมูลไปยัง Google Sheet
 
-  <br/>
+<br/>
   
-  ## <a name="content"></a> สารบัญ
-    1. [ไลบรารี่ที่ใช้งาน](#library)
-    2. [app](#Sp)
-    3. [การใช้งาน App Script เพื่อส่งข้อมูลไปยัง Google Sheet](#google)
-    4. [ลิงก์ของ Google Sheet และ App Script](#Link)
-  <br/>
+## <a name="content"></a> สารบัญ
+  1.[ไลบรารี่ที่ใช้งาน](#library)
+  2.[app](#Sp)
+  3.[การใช้งาน App Script เพื่อส่งข้อมูลไปยัง Google Sheet](#google)
+  4.[ลิงก์ของ Google Sheet และ App Script](#Link)
+<br/>
 
-  ## <a name="library"></a> ไลบรารี่ที่ใช้งาน
+## <a name="library"></a> ไลบรารี่ที่ใช้งาน
   1.WiFi ใช้ในการเชื่อมต่อกับ WiFi เพื่อส่งข้อมูลไปยัง Google sheet
   2.HTTPClient ใช้ในการส่งข้อมูลไปยัง Google Sheet
 
-  <br/>
+<br/>
 
-  ## <a name="Sp"></a> app
+## <a name="Sp"></a> app
     1.ทำการเปิด Google Dive แล้วสร้าง Google Sheet
     2.ทำการเปิด Google Dive แล้วสร้าง App Script
     3.ทำการเขียนโค้ดใน App Script เพื่อใช้ในการส่งข้อมูลไปยัง Google Sheet ซึ่งมีวิธีการเขียนโค้ดตามไฟล์ 
     4.ทำการเล์อกที่ การทำให้ใช้งานได้ -> จัดการให้ใช้งานได้ ->
 
-   <br/>
+<br/>
 
 ## <a name="google"></a> การใช้งาน App Script เพื่อส่งข้อมูลไปยัง Google Sheet
     วิธีการเขียนโค้ดเพื่อส่งข้อมูลไปยัง Google Sheet
@@ -56,7 +56,7 @@
     }
 
 
-   <br/>
+<br/>
    
 ## <a name="Link"></a> ลิงก์ของ Google Sheet และ App Script
 ลิงก์ Google Sheet : [ไปที่เว็บไซต์](https://docs.google.com/spreadsheets/d/1WmaNBVfGaR6_M2FEWlNePuxF7KyquoJBrCNNLKxdUzM/edit?gid=0#gid=0)
