@@ -16,6 +16,36 @@
    <br/>
 
 ## <a name="google"></a> การใช้งาน App Script เพื่อส่งข้อมูลไปยัง Google Sheet
+    วิธีการเขียนโค้ดเพื่อส่งข้อมูลไปยัง Google Sheet
+    1.ฟังชั้น doGet โดยใช้ function doGet(){} โดยในวงเล็บสามารถสร้างตัวแปรอะไรก็ได้เพื่อใช้ในการเขียนฟังชั้น ในนี้จะใช้เป็น e (ซึ่งจำเป็นต้องเรียกใช้ doGet หากใช้ฟังชั่นอื่นจะไม่สามารถส่งขึ้น Google Sheet
+    2.ฟังชั่น var เป็นการสร้างตัวแปรเหมื่อนกับ int หรือ float ในภาษา C
+    3.ฟังชั่น  .parameter. เป็นฟังชั่นในการรับข้อมูล วิธีการใช้นำตัวแปรที่สร้างไว้ใน doGet ตามด้วย .parameter. ตามด้วยชื่อของข้อมูลที่ถูกส่งกลับมา (e.parameter.data)
+    4.ฟังชั่น new Dete() เป็นฟังชั่นในการดึงเวลามาใช้
+    5.ฟังชั่น .getHours()  เป็นฟังชั่นในการดึงค่าชั่วโมงมาจากตัวแปรที่ดึงค่าเวลา ( date.getHours() )
+    6.ฟังชั้น .getMinutes() เป็นฟังชั่นในการดึงค่านาทีมาจากตัวแปรที่ดึงค่าเวลา ( date.getMinutes() )
+    7.ฟังชั้น .getSeconds() เป็นฟังชั่นในการดึงค่าวินาทีมาจากตัวแปรที่ดึงค่าเวลา ( date.getSeconds() )
+    8.ฟังชั้น SpreadsheetApp.openByUrl()  เป็นฟังชั่นในการเลือก Google Sheet ที่ต้องการส่ง ( SpreadsheetApp.openByUrl(url ของ Google Sheet) )
+    9.ฟังชั้น .getSheetByName() เป็นฟังชั่นในการเลือกชีตของ Google Sheet ที่ต้องการส่งด้วยใช้กับตัวแปรที่ใช้ฟังชั่นในการเลือก Google Sheet ( ss.getSheetByName("ชีต1") )
+    10.ฟังชั้น .appendRow() เป็นฟังชั่นในการเรียงลำดับข้อมูลที่การส่งโดยใช้กับตัวแปรที่ใช้ฟังชั่นในการเลือกชีต (  ws.appendRow([data1,data2])
+    
+    ตัวอย่างโค้ด
+    function doGet(e) {
+          var data1 = e.parameter.sensor1;
+          var data2 = e.parameter.sensor2;
+          var date = new Date();
+          var hours = date.getHours();
+          var minutes = date.getMinutes();
+          var seconds = date.getSeconds(); 
+          var time = hours + ":" + minutes + ":" + seconds;
+          var urls="url ของ Google Sheet";
+          var ss=SpreadsheetApp.openByUrl(urls);
+          var ws=ss.getSheetByName("ชีต1");
+          ws.appendRow([time,data1,data2]);
+    }
+    function myFunction() {
+      
+    }
+
 
    <br/>
    
