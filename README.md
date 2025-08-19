@@ -10,7 +10,7 @@
   
   3.[การใช้งาน App Script เพื่อส่งข้อมูลไปยัง Google Sheet](#google)
   
-  4.[ลิงก์ของ Google Sheet และ App Script](#Link)
+  4.[ลิงก์ของ Google Sheet และ App Script](#Link1)
 <br/>
 
 ## <a name="library"></a> ไลบรารี่ที่ใช้งาน
@@ -61,7 +61,7 @@
 
 <br/>
    
-## <a name="Link"></a> ลิงก์ของ Google Sheet และ App Script
+## <a name="Link1"></a> ลิงก์ของ Google Sheet และ App Script
 ลิงก์ Google Sheet : [ไปที่เว็บไซต์](https://docs.google.com/spreadsheets/d/1WmaNBVfGaR6_M2FEWlNePuxF7KyquoJBrCNNLKxdUzM/edit?gid=0#gid=0)
 
 ลิงก์ App Script ของ Soil Sensor : [ไปที่เว็บไซต์](https://script.google.com/d/1Mdd5yoEIhzhPuhuZc5btQAsZM5MPQrRmxWRQVlMX3e0VDdiDSvA5cKQQ/edit?usp=drive_link)
