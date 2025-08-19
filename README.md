@@ -11,11 +11,14 @@
   3.[การใช้งาน App Script เพื่อส่งข้อมูลไปยัง Google Sheet](#google)
   
   4.[ลิงก์ของ Google Sheet และ App Script](#Link1)
+
+
 <br/>
 
 ## <a name="library"></a> ไลบรารี่ที่ใช้งาน
   1.WiFi ใช้ในการเชื่อมต่อกับ WiFi เพื่อส่งข้อมูลไปยัง Google sheet
   2.HTTPClient ใช้ในการส่งข้อมูลไปยัง Google Sheet
+
 
 <br/>
 
@@ -24,6 +27,8 @@
     2.ทำการเปิด Google Dive แล้วสร้าง App Script
     3.ทำการเขียนโค้ดใน App Script เพื่อใช้ในการส่งข้อมูลไปยัง Google Sheet ซึ่งมีวิธีการเขียนโค้ดตามไฟล์ 
     4.ทำการเล์อกที่ การทำให้ใช้งานได้ -> จัดการให้ใช้งานได้ ->
+
+
 <br/>
 
 ## <a name="google"></a> การใช้งาน App Script เพื่อส่งข้อมูลไปยัง Google Sheet
@@ -68,5 +73,6 @@
 ลิงก์ App Script ของ อุณหภูมิและควสมชื้นในอากาศ : [ไปที่เว็บไซต์](https://script.google.com/d/1Zrlc-ooEr6B-3yoyaWD6enGBAqd9MEnwu9rqNukZTTX2xZq-4uJAKik3/edit?usp=drive_link)
 
 ลิงก์ App Script ของ เปอเซ็นแบตเตอร์รี่ : [ไปที่เว็บไซต์](https://script.google.com/d/1LMfAsO0ANZI3b9LDrvzPKpmksBPqMbsgNu1F_Pq4gQ-BhTwBVdiDTrZ1/edit?usp=drive_link)
+
 
 <br/>
