@@ -20,6 +20,7 @@
    <br/>
    
 ## <a name="Link"></a> ลิงก์ของ Google Sheet และ App Script
+[ไปที่เว็บไซต์](https://example.com)
     ลิงก์ Google Sheet 
     [ลิงค์](https://docs.google.com/spreadsheets/d/1WmaNBVfGaR6_M2FEWlNePuxF7KyquoJBrCNNLKxdUzM/edit?gid=0#gid=0)
     ลิงก์ App Script ของ Soil Sensor : https://script.google.com/d/1Mdd5yoEIhzhPuhuZc5btQAsZM5MPQrRmxWRQVlMX3e0VDdiDSvA5cKQQ/edit?usp=drive_link
